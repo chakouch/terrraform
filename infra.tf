@@ -4,7 +4,7 @@ variable "env" {
 }
 
 provider "aws" {
-  region = "eu-west-1"
+  region = "eu-west-2"
   access_key = "AKIASV3V36N47Y6RATVY"
   secret_key = "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"
 }
