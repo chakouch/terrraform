@@ -1,6 +1,6 @@
 variable "env" {
     type = string
-    default = ["terraform"]
+    default = "terraform"
 }
 
 provider "aws" {
