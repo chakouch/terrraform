@@ -5,8 +5,8 @@ variable "env" {
 
 provider "aws" {
   region = "eu-west-2"
-  access_key = "AKIASV3V36N47Y6RATVY"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 resource "aws_vpc" "vpc" {
   cidr_block = "10.0.0.0/16"
